@@ -1,6 +1,78 @@
 [
   {
     "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Cat",
+    "RussianWord": "Кот"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Dog",
+    "RussianWord": "Собака"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Horse",
+    "RussianWord": "Лошадь"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Sheep",
+    "RussianWord": "Овца"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Pig",
+    "RussianWord": "Свинья"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Cow",
+    "RussianWord": "Корова"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Chicken",
+    "RussianWord": "Курица"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Goose",
+    "RussianWord": "Гусь"
+  },
+  {
+    "Category": {
+      "Name": "Животные",
+      "Color": "#FFFFA500"
+    },
+    "EnglishWord": "Duck",
+    "RussianWord": "Утка"
+  },
+  {
+    "Category": {
       "Name": "Фрукты",
       "Color": "#FFFFFF00"
     },
@@ -46,5 +118,117 @@
     },
     "EnglishWord": "Melon",
     "RussianWord": "Дыня"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Table",
+    "RussianWord": "Стол"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Chair",
+    "RussianWord": "Стул"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Sofa",
+    "RussianWord": "Диван"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Closet",
+    "RussianWord": "Шкаф"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Sink",
+    "RussianWord": "Раковина"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Frige",
+    "RussianWord": "Холодильник"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Bath",
+    "RussianWord": "Ванна"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Armchair",
+    "RussianWord": "Кресло"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Shelf",
+    "RussianWord": "Полка"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Bedside",
+    "RussianWord": "Тумба"
+  },
+  {
+    "Category": {
+      "Name": "Мебель",
+      "Color": "#FF0000FF"
+    },
+    "EnglishWord": "Bureau",
+    "RussianWord": "Комод"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Apple",
+    "RussianWord": "Яблоко"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Banana",
+    "RussianWord": "Банан"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Lemon",
+    "RussianWord": "Лимон"
   }
 ]
