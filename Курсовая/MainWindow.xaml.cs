@@ -63,7 +63,7 @@ namespace Курсовая
                 else
                 {
                     for (int i = 0; i < window1.list_new.Count; i++)
-                    if (list.Find(x => x.EnglishWord == window1.list_new[i].EnglishWord) == null) list.Add(window1.list_new[i]);
+                        if (list.Find(x => x.EnglishWord == window1.list_new[i].EnglishWord) == null) list.Add(window1.list_new[i]);
                 }
                 
                 SelectCategoryFromList();
@@ -142,9 +142,26 @@ namespace Курсовая
             dlg.ShowDialog();
             //получение выбранного имени файла
 
-            string output = JsonConvert.SerializeObject(list, Formatting.Indented);
+            List<AddWords> list_check = new List<AddWords>();
+
+            if (System.IO.File.Exists(dlg.FileName))
+            {
+                var jsonData = System.IO.File.ReadAllText(dlg.FileName);
+                list_check = JsonConvert.DeserializeObject<List<AddWords>>(jsonData);
+            }
+
+            if (list_check.Count > 0)
+            {
+                foreach (AddWords aw in list)
+                {
+                    if (list_check.Find(x => x.EnglishWord == aw.EnglishWord) == null) list_check.Add(aw);
+                }
+            }
+            else list_check = list;
+
+            string output = JsonConvert.SerializeObject(list_check, Formatting.Indented);
             System.IO.File.WriteAllText(dlg.FileName, output);
-            
+
         }
 
         private void Start_button_Click(object sender, RoutedEventArgs e)
