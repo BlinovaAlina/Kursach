@@ -35,8 +35,10 @@ namespace Курсовая
 
             EnglishWord_textbox.Text = "";
             RussianWord_textbox.Text = "";
-
+            
             list_new = new List<AddWords>();
+
+            string nekaya_stroka = "";
         }
 
         private void AddMore_Click(object sender, RoutedEventArgs e)
