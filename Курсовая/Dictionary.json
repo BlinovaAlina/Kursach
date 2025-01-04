@@ -1,0 +1,50 @@
+[
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Orange",
+    "RussianWord": "Апельсин"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Pear",
+    "RussianWord": "Груша"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Peach",
+    "RussianWord": "Персик"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Pineaple",
+    "RussianWord": "Ананас"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Watermelon",
+    "RussianWord": "Арбуз"
+  },
+  {
+    "Category": {
+      "Name": "Фрукты",
+      "Color": "#FFFFFF00"
+    },
+    "EnglishWord": "Melon",
+    "RussianWord": "Дыня"
+  }
+]
