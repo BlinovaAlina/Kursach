@@ -7,14 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="514*"/>
-            <ColumnDefinition Width="155*"/>
-            <ColumnDefinition Width="131*"/>
-        </Grid.ColumnDefinitions>
-        <Border x:Name="Caterory_border" BorderThickness="1" HorizontalAlignment="Left" Height="61" Margin="56,195,0,0" VerticalAlignment="Top" Width="203" Grid.Column="1" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="AddWord_button" Content="Добавить слово" HorizontalAlignment="Left" Height="105" Margin="146,80,0,0" VerticalAlignment="Top" Width="103" Click="AddWord_button_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Border x:Name="Caterory_border" BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="583,194,0,0" VerticalAlignment="Top" Width="203"/>
+
+        <Button x:Name="AddWord_button" Content="Добавить слово" HorizontalAlignment="Left" Height="105" Margin="674,81,0,0" VerticalAlignment="Top" Width="103" Click="AddWord_button_Click"/>
         <Label Content="Кол-во правильных ответов:" HorizontalAlignment="Left" Height="29" Margin="474,80,0,0" VerticalAlignment="Top" Width="173" Grid.ColumnSpan="2"/>
         <Label x:Name="englishword_label" Content="Label" Height="61" Margin="124,138,0,0" VerticalAlignment="Top" Width="121" HorizontalAlignment="Left" FontSize="20"/>
         <Label x:Name="translationvar1_label" Content="Label" HorizontalAlignment="Left" Height="42" Margin="34,273,0,0" VerticalAlignment="Top" Width="103" MouseLeftButtonDown="translationvar1_label_MouseLeftButtonDown" BorderThickness="2,2,2,2"/>
@@ -22,8 +18,8 @@
         <Label x:Name="translationvar3_label" Content="Label" HorizontalAlignment="Left" Height="42" Margin="280,273,0,0" VerticalAlignment="Top" Width="103" MouseLeftButtonDown="translationvar3_label_MouseLeftButtonDown_1" BorderThickness="2,2,2,2"/>
         <Label Content="Категории слов:" HorizontalAlignment="Left" Height="34" Margin="471,208,0,0" VerticalAlignment="Top" Width="121" Grid.ColumnSpan="2"/>
         <Button x:Name="Save_button" Content="Сохранить" HorizontalAlignment="Left" Height="49" Margin="474,329,0,0" VerticalAlignment="Top" Width="133" Click="Save_button_Click" Grid.ColumnSpan="2"/>
-        <Button x:Name="Load_button" Content="Загрузить" HorizontalAlignment="Left" Height="49" Margin="116,329,0,0" VerticalAlignment="Top" Width="133" Click="Load_button_Click" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <ComboBox x:Name="Category_ComboBox" HorizontalAlignment="Left" Height="46" Margin="64,202,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="Category_ComboBox_SelectionChanged" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button x:Name="Load_button" Content="Загрузить" HorizontalAlignment="Left" Height="49" Margin="644,329,0,0" VerticalAlignment="Top" Width="133" Click="Load_button_Click"/>
+        <ComboBox x:Name="Category_ComboBox" HorizontalAlignment="Left" Height="46" Margin="592,201,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="Category_ComboBox_SelectionChanged"/>
         <Label x:Name="rightwords_label" Content="Label" HorizontalAlignment="Left" Height="29" Margin="474,109,0,0" VerticalAlignment="Top" Width="42" Grid.ColumnSpan="2"/>
         <Label Content="Кол-во неправильных ответов:" HorizontalAlignment="Left" Height="29" Margin="474,138,0,0" VerticalAlignment="Top" Width="181" Grid.ColumnSpan="2"/>
         <Label x:Name="wrongwords_label" Content="Label" HorizontalAlignment="Left" Height="29" Margin="474,167,0,0" VerticalAlignment="Top" Width="42" Grid.ColumnSpan="2"/>
